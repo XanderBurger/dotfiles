@@ -1,0 +1,19 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-u": "editor::Undo",
+      "ctrl-r": "editor::Redo",
+      "cmd-x": "command_palette::Toggle",
+      "cmd-n": "editor::MoveToEndOfParagraph",
+      "cmd-p": "editor::MoveToStartOfParagraph",
+      "cmd-f": "editor::MoveToNextSubwordEnd",
+      "cmd-b": "editor::MoveToPreviousSubwordStart",
+      "ctrl-'": "editor::SelectNext",
+      "ctrl-d": "editor::Backspace",
+      "cmd-d": "editor::DeleteToNextSubwordEnd",
+      "cmd-w": ["editor::Copy", "editor::Cancel"],
+      "ctrl-y": "editor::Paste",
+    },
+  },
+]
